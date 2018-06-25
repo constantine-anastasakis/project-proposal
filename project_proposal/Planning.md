@@ -1,14 +1,14 @@
-# Project Planning
+# Planning
 
 ## Problem Statement
 
 ### Primary User
 
-The operator of an ecommerce marketplace (for ex: Etsy) that wants to locate new sellers to participate by scraping information from relevant sites (for ex: Yelp).
+The operator of a platform that allows consumers to order food for delivery from local restaurants (for example: Seamless or UberEats) that wants to locate new restaurants to participate by scraping information from relevant sites (for ex: Yelp).
 
 ### User Needs Statement 
 
-As the operator of a marketplace, I need to acquire new sellers who can offer products that there is high demand for.
+As the operator of an online food ordering platform, I need to acquire new restaurants in New York who can offer menu items that there is high demand for.  
 
 ### To-be Process Description
 
@@ -25,7 +25,7 @@ As the operator of a marketplace, I need to acquire new sellers who can offer pr
 
 ### Information Outputs
 
-1. A results.csv file containing the results of the crawling process.
+1. A file containing the results of the crawling process called "yelp_scrapings.csv."
 
 ## Technology Requirements
 
@@ -35,7 +35,9 @@ This application does not require any third-party APIs.
 
 ### Python Package Requirements
 
-This application requires the BeautifulSoup package.
+This script requires the user to install Beautiful Soup, a Python package for parsing HTML and XML documents - documentation (including installation information) avaiable here: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+This script also requires the user to install pandas, a software library for data manipulation and analysis - documentation (including installation information) available here: https://pandas.pydata.org
 
 ### Hardware Requirements
 
